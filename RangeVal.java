@@ -4,7 +4,7 @@ public class practice{
         Scanner inputs = new Scanner(System.in);
         System.out.print("Enter some numbers separated by spaces: ");
         String numbers = inputs.nextLine();
-        String[] numbs = numbers.split(" ");
+        String[] numbs = numbers.split(" "); //Written the same way as Python
         int[] numbs2 = new int[numbs.length];
         for (int i = 0; i <numbs.length;i++){
             numbs2[i] = Integer.parseInt(numbs[i]); //Turn a string to an integer
